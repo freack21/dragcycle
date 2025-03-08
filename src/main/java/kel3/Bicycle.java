@@ -22,6 +22,11 @@ public class Bicycle {
     public Bicycle(String url, int width, int height) {
         this.width = width;
         this.height = height;
+        // currPedal = prevPedal = STANDBY;
+        // gVelocity = 10;
+        // hasStandby = true;
+        // statusPedal = DEFAULT;
+        // standbyDuration = 500;
         currPedal = prevPedal = STOP;
         gVelocity = 2;
         hasStandby = false;
